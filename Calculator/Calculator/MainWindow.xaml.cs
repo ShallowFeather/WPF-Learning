@@ -24,5 +24,17 @@ namespace Calculator
         {
             InitializeComponent();
         }
+
+        private void Num7_Click(object sender, RoutedEventArgs e)
+        {
+            if(Output.Content.ToString() == "0")
+            {
+                Output.Content = "7";
+            }
+            else
+            {
+                Output.Content = $"{Output.Content}7";
+            }
+        }
     }
 }
