@@ -41,7 +41,7 @@
                 Margin="5"
                 Grid.Row="1"
                 Grid.Column="2"/>
-        <Button x:Name="Sustraction"
+        <Button x:Name="division"
                 Click="OperactionButton"
                 Content="/"
                 Margin="5"
@@ -87,7 +87,7 @@
                 Margin="5"
                 Grid.Row="3"
                 Grid.Column="2"/>
-        <Button x:Name="division"
+        <Button x:Name="Sustraction"
                 Click="OperactionButton"
                 Content="-"
                 Margin="5"

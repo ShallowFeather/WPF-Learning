@@ -134,6 +134,10 @@ namespace Calculator
         }
         public static double Divide(double a, double b)
         {
+            if(b == 0)
+            {
+                MessageBox.Show("Error: Can't divide by 0");
+            }
             return a / b;
         }
     }
